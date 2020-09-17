@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP 39-28-1223
+D 22 way vertical PCB header,Mini-Fit Jr Molex MINI-FIT JR. Series, Series Number 5566, 4.2mm Pitch 22 Way 2 Row Straight PCB Header, Solder Termination, 6A
+K
+F https://componentsearchengine.com/Datasheets/1/39-28-1223.pdf
+$ENDCMP
+#
+$CMP 39-28-8240
+D Molex MINI-FIT JR. Series, Series Number 5566, 4.2mm Pitch 24 Way 2 Row Straight PCB Header, Solder Termination, 6A
+K
+F https://www.molex.com/pdm_docs/sd/039288240_sd.pdf
+$ENDCMP
+#
+#End Doc Library

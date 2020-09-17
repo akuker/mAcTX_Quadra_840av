@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name asdf-rescue)(type Legacy)(uri ${KIPRJMOD}/asdf-rescue.lib)(options "")(descr ""))
+  (lib (name SamacSys_Parts)(type Legacy)(uri ${KIPRJMOD}/SamacSys_Parts.lib)(options "")(descr ""))
 )
