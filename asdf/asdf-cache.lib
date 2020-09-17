@@ -1,42 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_ATX-20
-#
-DEF Connector_ATX-20 J 0 20 Y Y 1 F N
-F0 "J" -350 550 50 H V C CNN
-F1 "Connector_ATX-20" 250 550 50 H V C CNN
-F2 "" 0 -100 50 H I C CNN
-F3 "" 1100 -550 50 H I C CNN
-$FPLIST
- *Mini?Fit*2x10*Vertical*
- *Mini?Fit*2x10*Horizontal*
-$ENDFPLIST
-DRAW
-S -400 500 400 -500 0 1 10 f
-X +3.3V 1 500 -100 100 L 50 50 1 1 w
-X +12V 10 500 200 100 L 50 50 1 1 w
-X +3.3V 11 500 -100 100 L 50 50 1 1 P N
-X -12V 12 500 -400 100 L 50 50 1 1 w
-X GND 13 0 -600 100 U 50 50 1 1 P N
-X PS_ON# 14 -500 400 100 R 50 50 1 1 C
-X GND 15 0 -600 100 U 50 50 1 1 P N
-X GND 16 0 -600 100 U 50 50 1 1 P N
-X GND 17 0 -600 100 U 50 50 1 1 P N
-X -5V/NC 18 500 -300 100 L 50 50 1 1 w
-X +5V 19 500 100 100 L 50 50 1 1 P N
-X +3.3V 2 500 -100 100 L 50 50 1 1 P N
-X +5V 20 500 100 100 L 50 50 1 1 P N
-X GND 3 0 -600 100 U 50 50 1 1 w
-X +5V 4 500 100 100 L 50 50 1 1 w
-X GND 5 0 -600 100 U 50 50 1 1 P N
-X +5V 6 500 100 100 L 50 50 1 1 P N
-X GND 7 0 -600 100 U 50 50 1 1 P N
-X PWR_OK 8 500 400 100 L 50 50 1 1 O
-X +5VSB 9 500 0 100 L 50 50 1 1 w
-ENDDRAW
-ENDDEF
-#
 # Connector_Generic_Conn_02x06_Counter_Clockwise
 #
 DEF Connector_Generic_Conn_02x06_Counter_Clockwise J 0 40 Y N 1 F N
@@ -106,9 +70,9 @@ $FPLIST
  LED_THT:*
 $ENDFPLIST
 DRAW
-P 2 0 1 10 -30 -40 -30 40 N
+P 2 0 1 0 -30 -40 -30 40 N
 P 2 0 1 0 40 0 -30 0 N
-P 4 0 1 10 30 -40 -30 0 30 40 30 -40 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 N
 P 5 0 1 0 0 30 -20 50 -10 50 -20 50 -20 40 N
 P 5 0 1 0 20 50 0 70 10 70 0 70 0 60 N
 X K 1 -100 0 70 R 50 50 1 1 P
@@ -152,11 +116,27 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Library_Loader_Parts_39-28-1223
+# Mechanical_MountingHole_Pad
 #
-DEF Library_Loader_Parts_39-28-1223 J 0 30 Y Y 1 F N
+DEF Mechanical_MountingHole_Pad H 0 40 N N 1 F N
+F0 "H" 0 250 50 H V C CNN
+F1 "Mechanical_MountingHole_Pad" 0 175 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*Pad*
+$ENDFPLIST
+DRAW
+C 0 50 50 0 1 50 N
+X 1 1 0 -100 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# asdf-rescue_39-28-1223-Library_Loader_Parts
+#
+DEF asdf-rescue_39-28-1223-Library_Loader_Parts J 0 30 Y Y 1 F N
 F0 "J" 750 300 50 H V L CNN
-F1 "Library_Loader_Parts_39-28-1223" 750 200 50 H V L CNN
+F1 "asdf-rescue_39-28-1223-Library_Loader_Parts" 750 200 50 H V L CNN
 F2 "SHDR22W125P420_2X11_4740X960X1310P" 750 100 50 H I L CNN
 F3 "https://componentsearchengine.com/Datasheets/1/39-28-1223.pdf" 750 0 50 H I L CNN
 F4 "22 way vertical PCB header,Mini-Fit Jr Molex MINI-FIT JR. Series, Series Number 5566, 4.2mm Pitch 22 Way 2 Row Straight PCB Header, Solder Termination, 6A" 750 -100 50 H I L CNN "Description"
@@ -192,19 +172,39 @@ X 9 9 0 -400 200 R 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# Mechanical_MountingHole_Pad
+# asdf-rescue_ATX-20-Connector
 #
-DEF Mechanical_MountingHole_Pad H 0 40 N N 1 F N
-F0 "H" 0 250 50 H V C CNN
-F1 "Mechanical_MountingHole_Pad" 0 175 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+DEF asdf-rescue_ATX-20-Connector J 0 20 Y Y 1 F N
+F0 "J" -350 550 50 H V C CNN
+F1 "asdf-rescue_ATX-20-Connector" 250 550 50 H V C CNN
+F2 "" 0 -100 50 H I C CNN
+F3 "" 1100 -550 50 H I C CNN
 $FPLIST
- MountingHole*Pad*
+ *Mini?Fit*2x10*Vertical*
+ *Mini?Fit*2x10*Horizontal*
 $ENDFPLIST
 DRAW
-C 0 50 50 0 1 50 N
-X 1 1 0 -100 100 U 50 50 1 1 I
+S -400 500 400 -500 0 1 10 f
+X +3.3V 1 500 -100 100 L 50 50 1 1 w
+X +12V 10 500 200 100 L 50 50 1 1 w
+X +3.3V 11 500 -100 100 L 50 50 1 1 P N
+X -12V 12 500 -400 100 L 50 50 1 1 w
+X GND 13 0 -600 100 U 50 50 1 1 P N
+X PS_ON# 14 -500 400 100 R 50 50 1 1 C
+X GND 15 0 -600 100 U 50 50 1 1 P N
+X GND 16 0 -600 100 U 50 50 1 1 P N
+X GND 17 0 -600 100 U 50 50 1 1 P N
+X -5V/NC 18 500 -300 100 L 50 50 1 1 w
+X +5V 19 500 100 100 L 50 50 1 1 P N
+X +3.3V 2 500 -100 100 L 50 50 1 1 P N
+X +5V 20 500 100 100 L 50 50 1 1 P N
+X GND 3 0 -600 100 U 50 50 1 1 w
+X +5V 4 500 100 100 L 50 50 1 1 w
+X GND 5 0 -600 100 U 50 50 1 1 P N
+X +5V 6 500 100 100 L 50 50 1 1 P N
+X GND 7 0 -600 100 U 50 50 1 1 P N
+X PWR_OK 8 500 400 100 L 50 50 1 1 O
+X +5VSB 9 500 0 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
