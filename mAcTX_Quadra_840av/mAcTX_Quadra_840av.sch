@@ -884,4 +884,34 @@ F 3 "" H 3200 1750 50  0001 C CNN
 	1    3200 1750
 	0    1    1    0   
 $EndComp
+Wire Notes Line
+	7500 1100 10500 1100
+Wire Notes Line
+	10500 2700 7500 2700
+Wire Notes Line
+	7500 2700 7500 1100
+Wire Notes Line
+	7500 1200 10500 1200
+Wire Notes Line
+	10500 1350 7500 1350
+Wire Notes Line
+	7500 1500 10500 1500
+Wire Notes Line
+	10500 1650 7500 1650
+Wire Notes Line
+	7500 1800 10500 1800
+Wire Notes Line
+	10500 1950 7500 1950
+Wire Notes Line
+	7500 2100 10500 2100
+Wire Notes Line
+	10500 1100 10500 2700
+Wire Notes Line
+	7500 2250 10500 2250
+Wire Notes Line
+	10500 2400 7500 2400
+Wire Notes Line
+	7500 2550 10500 2550
+Text Notes 7950 2900 0    157  ~ 0
+DO NOT POPULATE
 $EndSCHEMATC
